@@ -1,0 +1,27 @@
+{
+  "name": "react-primer-app",
+  "version": "0.0.1",
+  "description": "Refactored code from the React tutorial by including a gulp workflow",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "marked": "^0.3.5",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "whatwg-fetch": "^0.10.1"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.5.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+}
